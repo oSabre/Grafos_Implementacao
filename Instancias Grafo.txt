@@ -1,0 +1,40 @@
+Grafo 9x9 Uniforme
+int n = 9;
+Grafo rede(n);
+    rede.addAresta(0, 1, 1);
+    rede.addAresta(0, 3, 1);
+    rede.addAresta(1, 0, 1);
+    rede.addAresta(1, 2, 1);
+    rede.addAresta(1, 4, 1);
+    rede.addAresta(2, 1, 1);
+    rede.addAresta(2, 5, 1);
+    rede.addAresta(3, 0, 1);
+    rede.addAresta(3, 6, 1);
+    rede.addAresta(3, 4, 1);
+    rede.addAresta(4, 1, 1);
+    rede.addAresta(4, 3, 1);
+    rede.addAresta(4, 5, 1);
+    rede.addAresta(4, 7, 1);
+    rede.addAresta(5, 2, 1);
+    rede.addAresta(5, 4, 1);
+    rede.addAresta(5, 8, 1);
+    rede.addAresta(6, 3, 1);
+    rede.addAresta(6, 7, 1);
+    rede.addAresta(7, 6, 1);
+    rede.addAresta(7, 4, 1);
+    rede.addAresta(7, 8, 1);
+    rede.addAresta(8, 7, 1);
+    rede.addAresta(8, 5, 1);
+
+Grafo 4x4 Uniforme
+
+ int n = 4; // Num vertices
+    Grafo rede(n);
+    rede.addAresta(0, 1, 1);
+    rede.addAresta(0, 2, 1);
+    rede.addAresta(1, 0, 1);
+    rede.addAresta(1, 3, 1);
+    rede.addAresta(2, 0, 1);
+    rede.addAresta(2, 3, 1);
+    rede.addAresta(3, 1, 1);
+    rede.addAresta(3, 2, 1);
